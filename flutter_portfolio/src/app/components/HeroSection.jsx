@@ -14,9 +14,9 @@ const HeroSection = () => {
                </span>
                <TypeAnimation
                   sequence={[
-                  // Same substring at the start will only be typed out once, initially
+
                   'James',
-                  1000, // wait 1s before replacing "Mice" with "Hamsters"
+                  1000,
                   'a Software Engineer',
                   1000,
                   'a Web Developer',
@@ -42,7 +42,7 @@ const HeroSection = () => {
             </div>
          </div>
          <div className='col-span-5 place-self-center mt-28 lg:mt-0'>
-            <div className='rounded-full bg-[#181818] w-[250px] l-[250px] lg:w-[375px] lg:h-[375px] relative'>
+            <div className='rounded-full bg-[#181818] w-[250px] l-[250px] lg:w-[400px] lg:h-[400px] relative'>
                <Image
                   src="/images/hero-image(1280).png"
                   alt='hero image'
